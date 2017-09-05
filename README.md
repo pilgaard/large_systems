@@ -50,24 +50,27 @@ Systemet skal kunne håndtere at brugere kan registrere sig på siden og tilføj
 
 | **Id** | **User Story** | **Id** | **User Story** |
 | --- | --- | --- | --- |
-| **1** | A user must be able to read stories without logging in | **2** | A user must be able to register a new account |
+|   | **Before login** |   |   |
+| **1** | A user must be able to read stories in a sorted order | **2** | A user must be able to register a new account |
 | **3** | A user must be able to retrieve a new password for his/her account. | **4** | A user must be able to log in to his/her account |
+| **5** | A user must be able to view all comments submitted to a story | **6** | A user must be able to see time-since-submit of stories |
+| **7** | A user must be able to see the amount of comments made to a story | **8** | A user must be able to see the amount of karma accumulated by a story |
+| **9** | A user must be able to hide comment-trees |   |   |
 |   | **After successful login** |   |   |
-| **5** | A user must be able to submit new stories. | **6** | A user must be able to edit his/her submitted stories. |
-| **7** | A user must be able to view a list of submitted stories | **8** | A user must be able to delete his/her stories |
-| **9** | A user must be able to view all comments submitted to a story | **10** | A user must be able to submit a comment to a story |
-| **11** | A user must be able to submit a comment to a comment | **12** | A user must be able to edit his/her submitted comments |
-| **13** | A user must be able to delete his/her comments | **14** | A user must be able to view a list of his/her submitted comments |
-| **15** | A user must be able to edit his/her profile | **16** | A user must be able to edit the email assigned to his/her profile |
-| **17** | A user must be able to mark stories as  favorites | **18** | A user must be able to mark comments as favorites |
-| **19** | A user must be able to view a list of all favorite entities | **20** | A user must be able to remove entities from his/her list of favorites |
-| **21** | A user must be able to switch between sub-pages of different categories. | **22** |   |
-| **23** | A user must be able to flag stories as spam | **24** | A user must be able to flag comments as spam |
-| **25** | A user must be able to upvote stories | **26** | A user must be able to downvote stories when they have 500+ karma |
-| **27** | A user must be able to upvote comments | **28** | Users must be able to downvote comments when they have 500+ karma |
-| **29A** | A user must be able to view his/her amount of karma points | **29B** | Karma points must be calculated by (upvotes - downvotes) |
-| **30** | A User must be able to log out | **31** |   |
-| **32** |   | **33** |   |
+| **10** | A user must be able to submit new stories (title/url/text) | **11** | A user must be able to edit his/her submitted stories. |
+| **12** | A user must be able to view a list of his/her submitted stories | **13** | A user must be able to delete his/her stories |
+| **14** | A user must be able to submit a comment to a story (text/gif/link/img) | **15** | A user must be able to submit a comment (text/gif/link/img) to a comment |
+| **16** | A user must be able to view a list of his/her submitted comments | **17** | A user must be able to delete his/her comments |
+| **18** | A user must be able to edit his/her submitted comments | **19** | A user must be able to edit his/her profile |
+| **20** | A user must be able to delete his/her profile | **21** | A user must be able to edit the email assigned to his/her profile |
+| **22** | A user must be able to mark stories as  favorites | **23** | A user must be able to mark comments as favorites |
+| **24** | A user must be able to view a list of all  his/her favorite entities | **25** | A user must be able to remove entities from his/her list of favorites |
+| **26** | A user must be able to switch between sub-pages of different categories. | **27** | A user must be able to flag stories as spam |
+| **28** | A user must be able to flag comments as spam | **29** | A user must be able to upvote stories |
+| **30** | A user must be able to downvote stories when they have 500+ karma | **31** | Users must be able to downvote comments when they have 500+ karma |
+| **32** | A user must be able to upvote comments | **33** |   |
+| **34a** | A user must be able to view his/her amount of karma points | **34b** | Karma points must be calculated by (upvotes - downvotes) |
+| **35** | A User must be able to log out |   |   |
 
 
 ### Nonfunctional requirements
