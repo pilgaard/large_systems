@@ -27,7 +27,7 @@
 		-  
 	- References
 		- Reddit: https://www.reddit.com/
-		- HackerNews: https://news.ycombinator.com/
+		- HackerNews: https://news.ycombinator.com/ 
 		Både Reddit og HackerNews er sociale nyhedshjemmesider, hvor brugere kan lave indlæg, der kan kommenteres og reageres
 		på af andre registerede brugere.
 	- Overview
