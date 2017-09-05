@@ -28,13 +28,13 @@
 	- Definitions, acronyms and abbreviations
 		- Karma point: Karma point er summen af alle Up votes en brugers indlæg eller kommentarer har fået, minus summen alle Down votes brugerens indlæg eller kommentarer har fået.
 		- Indlæg: Et indlæg kan bestå af billeder, tekst, links, gifs, videoer mm. 
-		-  
 	- References
 		- Reddit: https://www.reddit.com/
 		- HackerNews: https://news.ycombinator.com/ 
 		- Både Reddit og HackerNews er sociale nyhedshjemmesider, hvor brugere kan lave indlæg, der kan kommenteres og reageres
 		på af andre registerede brugere.
 	- Overview
+		- Systemet vil altså være en kilde for folk med en interesse for tekonoligi, som de dagligt kan søge til for enten at dele eller indtage viden, eller deltage i samtaler og diskussioner. Brugerne vil kunne Up eller Down vote indlæg eller kommentarer, som de føler fortjæner det.
 
 ## Current system
 Der er som udgangspunkt intet nuværende eksitrende system. Det kommende system skal dog efterligne det eksisterende site "Hacker News".
