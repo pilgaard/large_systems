@@ -9,17 +9,17 @@
 - Objectives and success criteria of the project
 	- Objecives:
 		- At anvende en Agile udviklingsmetode. Dette vil effektiviserer udviklingen af systemet.
-		- Success criteria:
-			- Systemet vil have en meget høj oppetid, og at der ikke går noget data tabt.
-			- Alt data bliver gemt i en database.
-			- En hjemmeside hvor alle indlæg kan ses, kommenteres og reageres på.
-			- Brugere kan:
-				- Registrere sig i systemet med både Username og Password.
-				- Både logge ind og ud af systemet.
-				- Lave indlæg.
-				- Kommenterer på indlæg og andre brugeres kommentarer.
-				- Reagerer på andre brugeres indlæg og kommentarer, ved enten at Up eller Down vote.
-				- Modtage Karma point, baseret på hvor mange Up og Down votes de får.
+	- Success criteria:
+		- Systemet vil have en meget høj oppetid, og at der ikke går noget data tabt.
+		- Alt data bliver gemt i en database.
+		- En hjemmeside hvor alle indlæg kan ses, kommenteres og reageres på.
+		- Brugere kan:
+			- Registrere sig i systemet med både Username og Password.
+			- Både logge ind og ud af systemet.
+			- Lave indlæg.
+			- Kommenterer på indlæg og andre brugeres kommentarer.
+			- Reagerer på andre brugeres indlæg og kommentarer, ved enten at Up eller Down vote.
+			- Modtage Karma point, baseret på hvor mange Up og Down votes de får.
 				
 	- Definitions, acronyms and abbreviations
 		- Karma point: Karma point er summen af alle Up votes en brugers indlæg eller kommentarer har fået, minus summen alle Down votes brugerens indlæg eller kommentarer har fået.
