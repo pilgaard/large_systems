@@ -5,6 +5,10 @@
 	- Formålet er at bygge en hjemmeside, hvor registrerede brugere kan lave indlæg, der både kan ses, kommenteres og vurderes af andre brugere. De enkelte kommentarer på indlæg kan også vurderes af andre brugere. Dette vil resulterer i et miljø, hvor brugere kan dele deres oplevelser eller interessante nyheder med andre brugere, hvilket kan lede til mange forskellige slags interaktioner imellem hjemmesidens brugere.
 	- Systemet kan sammenlignes med HackerNews og Reddit (se References).
 - Scope of the System
+	- People with a interest for technology. Background, work, school, interests etc. 
+	- Mostly male users between the age of 20 and 30.
+	- Forum for discussions, conversations and sharing of information.
+	- Limited user base.
 
 - Objectives and success criteria of the project
 	- Objecives:
