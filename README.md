@@ -1,14 +1,14 @@
 # hacker_news
 
 ## Introduction
-	- Purpose of the System
-		- Formålet er at bygge en hjemmeside, hvor registrerede brugere kan lave indlæg, der både kan ses, kommenteres og vurderes af andre brugere. De enkelte kommentarer på indlæg kan også vurderes af andre brugere. Dette vil resulterer i et miljø, hvor brugere kan dele deres oplevelser eller interessante nyheder med andre brugere, hvilket kan lede til mange forskellige slags interaktioner imellem hjemmesidens brugere.
-		- Systemet kan sammenlignes med HackerNews og Reddit (se References).
-	- Scope of the System
-		- 
-	- Objectives and success criteria of the project
-		- Objecives:
-			- At anvende en Agile udviklingsmetode. Dette vil effektiviserer udviklingen af systemet.
+- Purpose of the System
+	- Formålet er at bygge en hjemmeside, hvor registrerede brugere kan lave indlæg, der både kan ses, kommenteres og vurderes af andre brugere. De enkelte kommentarer på indlæg kan også vurderes af andre brugere. Dette vil resulterer i et miljø, hvor brugere kan dele deres oplevelser eller interessante nyheder med andre brugere, hvilket kan lede til mange forskellige slags interaktioner imellem hjemmesidens brugere.
+	- Systemet kan sammenlignes med HackerNews og Reddit (se References).
+- Scope of the System
+	- 
+- Objectives and success criteria of the project
+	- Objecives:
+		- At anvende en Agile udviklingsmetode. Dette vil effektiviserer udviklingen af systemet.
 		- Success criteria:
 			- Systemet vil have en meget høj oppetid, og at der ikke går noget data tabt.
 			- Alt data bliver gemt i en database.
@@ -28,7 +28,8 @@
 	- References
 		- Reddit: https://www.reddit.com/
 		- HackerNews: https://news.ycombinator.com/
-			Både Reddit og HackerNews er sociale nyhedshjemmesider, hvor brugere kan lave indlæg, der kan kommenteres og reageres på af andre registerede brugere.
+		Både Reddit og HackerNews er sociale nyhedshjemmesider, hvor brugere kan lave indlæg, der kan kommenteres og reageres
+		på af andre registerede brugere.
 	- Overview
 
 ## Current system
