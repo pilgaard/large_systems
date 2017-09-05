@@ -24,7 +24,7 @@
 	- Definitions, acronyms and abbreviations
 		- Karma point: Karma point er summen af alle Up votes en brugers indlæg eller kommentarer har fået, minus summen alle Down votes brugerens indlæg eller kommentarer har fået.
 		- Indlæg: Et indlæg kan bestå af billeder, tekst, links, gifs, videoer mm. 
-		- 
+		-  
 	- References
 		- Reddit: https://www.reddit.com/
 		- HackerNews: https://news.ycombinator.com/
