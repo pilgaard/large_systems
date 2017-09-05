@@ -3,6 +3,7 @@
 ## Introduction
 
 ## Current system
+Der er som udgangspunkt intet nuværende eksitrende system. Det kommende system skal dog efterligne det eksisterende site "Hacker News"
 
 ## Proposed system
 
