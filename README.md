@@ -5,7 +5,7 @@
 	- Formålet er at bygge en hjemmeside, hvor registrerede brugere kan lave indlæg, der både kan ses, kommenteres og vurderes af andre brugere. De enkelte kommentarer på indlæg kan også vurderes af andre brugere. Dette vil resulterer i et miljø, hvor brugere kan dele deres oplevelser eller interessante nyheder med andre brugere, hvilket kan lede til mange forskellige slags interaktioner imellem hjemmesidens brugere.
 	- Systemet kan sammenlignes med HackerNews og Reddit (se References).
 - Scope of the System
-	-  
+
 - Objectives and success criteria of the project
 	- Objecives:
 		- At anvende en Agile udviklingsmetode. Dette vil effektiviserer udviklingen af systemet.
