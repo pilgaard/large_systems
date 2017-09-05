@@ -1,8 +1,16 @@
 # hacker_news
 
+## Introduction
 
+## Current system
 
-## Nonfunctional requirements
+## Proposed system
+
+### Overview
+
+### Functional requirements
+
+### Nonfunctional requirements
   - Usability
      - Systemet skal have et REST API som gør det muligt for et simulator program at publicere og kommentere.
      - REST API’et skal også kunne fortælle hvilken stadie systemet er i, fx om det er kørende eller ved at opdatere.
@@ -23,4 +31,7 @@
   - Interface
   - Packaging
   - Legal
+  
+### System models
 
+## Glossary
