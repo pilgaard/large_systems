@@ -46,7 +46,7 @@ Systemet skal kunne håndtere at brugere kan registrere sig på siden og tilføj
 
 ### Functional requirements
 
-## User Stories
+#### User Stories
 
 | **Id** | **User Story** | **Id** | **User Story** |
 | --- | --- | --- | --- |
