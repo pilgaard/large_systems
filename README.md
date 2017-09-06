@@ -101,4 +101,487 @@ Systemet skal kunne håndtere at brugere kan registrere sig på siden og tilføj
   
 ### System models
 
+
+<table>
+  <tr>
+    <td>Name:</td>
+    <td>Select story</td>
+  </tr>
+  <tr>
+    <td>Actor: </td>
+    <td>User</td>
+  </tr>
+  <tr>
+    <td>Entry Conditions:</td>
+    <td>User is on the front page</td>
+  </tr>
+  <tr>
+    <td>Flow of Events:</td>
+    <td>User clicks on a story title
+Site opens new tab with link to the corresponding story</td>
+  </tr>
+  <tr>
+    <td>Exit conditions:</td>
+    <td>The user has a new tab open with the selected story</td>
+  </tr>
+</table>
+
+
+<table>
+  <tr>
+    <td>Name:</td>
+    <td>Show latest stories</td>
+  </tr>
+  <tr>
+    <td>Actor: </td>
+    <td>User</td>
+  </tr>
+  <tr>
+    <td>Entry Conditions:</td>
+    <td>User is on any page</td>
+  </tr>
+  <tr>
+    <td>Flow of Events:</td>
+    <td>User clicks on "new"
+Site directs user to new list</td>
+  </tr>
+  <tr>
+    <td>Exit conditions:</td>
+    <td>The user is shown the latest stories</td>
+  </tr>
+</table>
+
+
+<table>
+  <tr>
+    <td>Name:</td>
+    <td>Hide story</td>
+  </tr>
+  <tr>
+    <td>Actor: </td>
+    <td>User</td>
+  </tr>
+  <tr>
+    <td>Entry Conditions:</td>
+    <td>User is on the front page</td>
+  </tr>
+  <tr>
+    <td>Flow of Events:</td>
+    <td>User clicks "hide" on the story</td>
+  </tr>
+  <tr>
+    <td>Exit conditions:</td>
+    <td>The story is hidden from the user</td>
+  </tr>
+</table>
+
+
+<table>
+  <tr>
+    <td>Name:</td>
+    <td>Submit story</td>
+  </tr>
+  <tr>
+    <td>Actor: </td>
+    <td>User</td>
+  </tr>
+  <tr>
+    <td>Entry Conditions:</td>
+    <td>User is on any page and is logged in</td>
+  </tr>
+  <tr>
+    <td>Flow of Events:</td>
+    <td>User clicks on "submit"
+Site presents the user with the submission screen
+User enters submission data and clicks on “submit”</td>
+  </tr>
+  <tr>
+    <td>Exit conditions:</td>
+    <td>The user is returned to the front page and the submission has been added to the list of stories</td>
+  </tr>
+</table>
+
+
+<table>
+  <tr>
+    <td>Name:</td>
+    <td>Login</td>
+  </tr>
+  <tr>
+    <td>Actor: </td>
+    <td>User</td>
+  </tr>
+  <tr>
+    <td>Entry Conditions:</td>
+    <td>User is on any page</td>
+  </tr>
+  <tr>
+    <td>Flow of Events:
+</td>
+    <td>User clicks on "login"
+Site directs user to the login screen
+User enters username and password in the “Login” fields
+User clicks on “login”</td>
+  </tr>
+  <tr>
+    <td>Exit conditions:</td>
+    <td>The user is returned to the front page and has been logged in</td>
+  </tr>
+</table>
+
+
+<table>
+  <tr>
+    <td>Name:</td>
+    <td>Logout</td>
+  </tr>
+  <tr>
+    <td>Actor: </td>
+    <td>User</td>
+  </tr>
+  <tr>
+    <td>Entry Conditions:</td>
+    <td>User is on any page</td>
+  </tr>
+  <tr>
+    <td>Flow of Events:
+</td>
+    <td>User clicks on "logout"</td>
+  </tr>
+  <tr>
+    <td>Exit conditions:</td>
+    <td>The user is returned to the front page and has been logged out</td>
+  </tr>
+</table>
+
+
+<table>
+  <tr>
+    <td>Name:</td>
+    <td>Register</td>
+  </tr>
+  <tr>
+    <td>Actor: </td>
+    <td>User</td>
+  </tr>
+  <tr>
+    <td>Entry Conditions:</td>
+    <td>User is on any page</td>
+  </tr>
+  <tr>
+    <td>Flow of Events:
+</td>
+    <td>User clicks on "login"
+Site directs user to the login screen
+User enters username and password in the “Create Account” fields
+User clicks on “create account”</td>
+  </tr>
+  <tr>
+    <td>Exit conditions:</td>
+    <td>The user is returned to the front page and has been logged in</td>
+  </tr>
+</table>
+
+
+<table>
+  <tr>
+    <td>Name:</td>
+    <td>Upvote story</td>
+  </tr>
+  <tr>
+    <td>Actor: </td>
+    <td>User</td>
+  </tr>
+  <tr>
+    <td>Entry Conditions:</td>
+    <td>User is on the front page and is logged in</td>
+  </tr>
+  <tr>
+    <td>Flow of Events:
+</td>
+    <td>User clicks on up-arrow next to a story</td>
+  </tr>
+  <tr>
+    <td>Exit conditions:</td>
+    <td>The story has received a point and now gives the user an option to "unvote" 
+The user is awarded 1 karma point</td>
+  </tr>
+</table>
+
+
+<table>
+  <tr>
+    <td>Name:</td>
+    <td>Downvote story</td>
+  </tr>
+  <tr>
+    <td>Actor: </td>
+    <td>User</td>
+  </tr>
+  <tr>
+    <td>Entry Conditions:</td>
+    <td>User is on the front page and is logged in and has more than 500 karma points</td>
+  </tr>
+  <tr>
+    <td>Flow of Events:
+</td>
+    <td>User clicks on down-arrow next to a story</td>
+  </tr>
+  <tr>
+    <td>Exit conditions:</td>
+    <td>The story has lost a point
+The user has lost a karma point</td>
+  </tr>
+</table>
+
+
+<table>
+  <tr>
+    <td>Name:</td>
+    <td>Downvote comment</td>
+  </tr>
+  <tr>
+    <td>Actor: </td>
+    <td>User</td>
+  </tr>
+  <tr>
+    <td>Entry Conditions:</td>
+    <td>User is on a comment page and is logged in and has more than 500 karma points</td>
+  </tr>
+  <tr>
+    <td>Flow of Events:
+</td>
+    <td>User clicks on down-arrow next to a comment</td>
+  </tr>
+  <tr>
+    <td>Exit conditions:</td>
+    <td>The comment has lost a point
+The user has lost a karma point</td>
+  </tr>
+</table>
+
+
+<table>
+  <tr>
+    <td>Name:</td>
+    <td>Upvote comment</td>
+  </tr>
+  <tr>
+    <td>Actor: </td>
+    <td>User</td>
+  </tr>
+  <tr>
+    <td>Entry Conditions:</td>
+    <td>User is on a comment page and is logged in</td>
+  </tr>
+  <tr>
+    <td>Flow of Events:
+</td>
+    <td>User clicks on up-arrow next to a comment</td>
+  </tr>
+  <tr>
+    <td>Alternate flow of events:</td>
+    <td>Users clicks on up-arrow and is not logged in
+Site directs user to login screen
+User enters login information and clicks "login"</td>
+  </tr>
+  <tr>
+    <td>Exit conditions:</td>
+    <td>The comment has received a point and now gives the user an option to “unvote” 
+The user is awarded 1 karma point</td>
+  </tr>
+</table>
+
+
+<table>
+  <tr>
+    <td>Name:</td>
+    <td>Show comments</td>
+  </tr>
+  <tr>
+    <td>Actor: </td>
+    <td>User</td>
+  </tr>
+  <tr>
+    <td>Entry Conditions:</td>
+    <td>User is on the front page</td>
+  </tr>
+  <tr>
+    <td>Flow of Events:
+</td>
+    <td>User clicks "comments" for a story
+Site directs the user to the comments
+</td>
+  </tr>
+  <tr>
+    <td>Exit conditions:</td>
+    <td>The user is shown comments on the story</td>
+  </tr>
+</table>
+
+
+<table>
+  <tr>
+    <td>Name:</td>
+    <td>Comment on story</td>
+  </tr>
+  <tr>
+    <td>Actor: </td>
+    <td>User</td>
+  </tr>
+  <tr>
+    <td>Entry Conditions:</td>
+    <td>User is on the front page and is logged in</td>
+  </tr>
+  <tr>
+    <td>Flow of Events:
+</td>
+    <td>User clicks "comments" for a story
+Site directs the user to the comments
+User enters text in the comment field
+User clicks “add comment”</td>
+  </tr>
+  <tr>
+    <td>Alternate flow of events:</td>
+    <td>Users clicks “add comment” and is not logged in
+Site directs user to login screen
+User enters login information and clicks “login”</td>
+  </tr>
+  <tr>
+    <td>Exit conditions:</td>
+    <td>The comment is added to the corresponding story </td>
+  </tr>
+</table>
+
+
+<table>
+  <tr>
+    <td>Name:</td>
+    <td>Reply to comment</td>
+  </tr>
+  <tr>
+    <td>Actor: </td>
+    <td>User</td>
+  </tr>
+  <tr>
+    <td>Entry Conditions:</td>
+    <td>User is on a comment page and is logged in</td>
+  </tr>
+  <tr>
+    <td>Flow of Events:
+</td>
+    <td>User clicks on "reply" on a comment
+User enters text in the comment field
+User clicks “reply”</td>
+  </tr>
+  <tr>
+    <td>Exit conditions:</td>
+    <td>The comment is added to the comment tree</td>
+  </tr>
+</table>
+
+
+<table>
+  <tr>
+    <td>Name:</td>
+    <td>Threads</td>
+  </tr>
+  <tr>
+    <td>Actor: </td>
+    <td>User</td>
+  </tr>
+  <tr>
+    <td>Entry Conditions:</td>
+    <td>User is on any page and is logged in</td>
+  </tr>
+  <tr>
+    <td>Flow of Events:
+</td>
+    <td>User clicks on ""thread”
+Site shows all stories/threads that the user has commented on</td>
+  </tr>
+  <tr>
+    <td>Exit conditions:</td>
+    <td>Threads are shown</td>
+  </tr>
+</table>
+
+
+<table>
+  <tr>
+    <td>Name:</td>
+    <td>Show Jobs</td>
+  </tr>
+  <tr>
+    <td>Actor: </td>
+    <td>User</td>
+  </tr>
+  <tr>
+    <td>Entry Conditions:</td>
+    <td>User is on any page</td>
+  </tr>
+  <tr>
+    <td>Flow of Events:</td>
+    <td>User clicks on "jobs"
+User is directed to the jobs list</td>
+  </tr>
+  <tr>
+    <td>Exit conditions:</td>
+    <td>User is shown a list of job stories</td>
+  </tr>
+</table>
+
+
+<table>
+  <tr>
+    <td>Name:</td>
+    <td>Show questions</td>
+  </tr>
+  <tr>
+    <td>Actor: </td>
+    <td>User</td>
+  </tr>
+  <tr>
+    <td>Entry Conditions:</td>
+    <td>User is on any page</td>
+  </tr>
+  <tr>
+    <td>Flow of Events:</td>
+    <td>User clicks on "ask"
+User is directed to the ask list</td>
+  </tr>
+  <tr>
+    <td>Exit conditions:</td>
+    <td>User is shown a list of ask stories</td>
+  </tr>
+</table>
+
+
+<table>
+  <tr>
+    <td>Name:</td>
+    <td>Search</td>
+  </tr>
+  <tr>
+    <td>Actor: </td>
+    <td>User</td>
+  </tr>
+  <tr>
+    <td>Entry Conditions:</td>
+    <td>User is on any page</td>
+  </tr>
+  <tr>
+    <td>Flow of Events:</td>
+    <td>User enters text in search bar and hits enter
+Site directs the user to a list of stories matching the search criteria</td>
+  </tr>
+  <tr>
+    <td>Exit conditions:</td>
+    <td>User is shown a list stories</td>
+  </tr>
+</table>
+
+
+
+
 ## Glossary
