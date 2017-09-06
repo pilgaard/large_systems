@@ -37,7 +37,7 @@
 		- Systemet vil altså være en kilde for folk med en interesse for tekonoligi, som de dagligt kan søge til for enten at dele eller indtage viden, eller deltage i samtaler og diskussioner. Brugerne vil kunne Up eller Down vote indlæg eller kommentarer, som de føler fortjæner det.
 
 ## Current system
-Der er som udgangspunkt intet nuværende eksitrende system. Det kommende system skal dog efterligne det eksisterende site "Hacker News".
+Der er som udgangspunkt intet nuværende eksistrende system. Det kommende system skal dog efterligne det eksisterende site "Hacker News".
 
 ## Proposed system
 
