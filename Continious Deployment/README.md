@@ -10,6 +10,7 @@ Vi har til vores projekt valgt at bruge følgende værktøjer til CI/CD:
 
 - Git: 
 <p>Bruger vi til version control system</p>
+
 - Github:
 <p>Bruger vi til at hoste vores kode</p>
 - Jenkins: 
