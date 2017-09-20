@@ -9,8 +9,8 @@ http://46.101.111.112/
 Vi har til vores projekt valgt at bruge følgende værktøjer til CI/CD:
 
 - Git: 
-<br>
 Bruger vi til version control system
+<br>
 
 - Github:
 <br>
