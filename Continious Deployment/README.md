@@ -13,13 +13,18 @@ Vi har til vores projekt valgt at bruge følgende værktøjer til CI/CD:
 
 - Github:
 <p>Bruger vi til at hoste vores kode</p>
+
 - Jenkins: 
 <p>Bruger vi til bygge server</p>
+
 - Maven:
 <p>Bruger vi til at bygge vores projekt</p>
+
 - Vagrant:
 <p>Bruger vi til setup og configurering af virtual maskiner (Både lokalt og på digital Ocean)</p>
+
 - Digital Ocean:
 <p>Bruger vi som Cloud server </p>
+
 
 ## Setup and config
