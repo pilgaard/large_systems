@@ -15,7 +15,7 @@ Vi har til vores projekt valgt at bruge følgende værktøjer til CI/CD:
 <p>Bruger vi til at hoste vores kode</p>
 
 - Jenkins: 
-<p>Bruger vi til bygge server</p>
+<p>Bruger vi som bygge server</p>
 
 - Maven:
 <p>Bruger vi til at bygge vores projekt</p>
@@ -24,7 +24,7 @@ Vi har til vores projekt valgt at bruge følgende værktøjer til CI/CD:
 <p>Bruger vi til setup og configurering af virtual maskiner (Både lokalt og på digital Ocean)</p>
 
 - Digital Ocean:
-<p>Bruger vi som Cloud server</p>
+<p>Bruger vi som cloud server</p>
 
 
 ## Setup and config
