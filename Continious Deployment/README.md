@@ -9,32 +9,26 @@ http://46.101.111.112/
 Vi har til vores projekt valgt at bruge følgende værktøjer til CI/CD:
 
 - Git: 
-Bruger vi til version control system
-<br>
+<p>Bruger vi til version control system</p>
 
 - Github:
-<br>
-Bruger vi til at hoste vores kode
+<p>Bruger vi til at hoste vores kode</p>
 
 - Jenkins: 
-<br>
-Bruger vi til bygge server
+<p>Bruger vi til bygge server</p>
 
 - Maven:
-<br>
-Bruger vi til at bygge vores projekt
+<p>Bruger vi til at bygge vores projekt</p>
 
 - Vagrant:
-<br>
-Bruger vi til setup og configurering af virtual maskiner (Både lokalt og på digital Ocean)
+<p>Bruger vi til setup og configurering af virtual maskiner (Både lokalt og på digital Ocean)</p>
 
 - Digital Ocean:
-<br>
-Bruger vi som Cloud server
+<p>Bruger vi som Cloud server</p>
 
 
 ## Setup and config
 
 Vi har som nævnt valgt at bruge Jenkins som bygge server. Til vores Backend har vi valgt at udvikle i Java og Maven bruger vi til at bygge projektet til en JAR fil.
 <br>
-Jenkins peger på vores GitHub repository, så når vi push'er til Git, vil Jenkins automatisk bygge projektet   
+Jenkins peger på vores GitHub repository, så når vi push'er til Git, vil Jenkins automatisk bygge projektet .  
