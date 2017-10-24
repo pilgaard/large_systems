@@ -646,6 +646,19 @@ Site directs the user to a list of stories matching the search criteria</td>
   </tr>
 </table>
 
+#### Actor Description
+Guest:
+- A guest is a visitor, who is not logged in. 
+- The guest can view all comments and posts, but is not able to post or comment himself.
+User:
+- A user is a visitor, who is logged in.
+- A user is identifiable by the system.
+- A user is able to create posts, comment on comments or posts and up/down-vote comments or posts.
+Simulator:
+- Simulator is a bot hosted by Helge.
+- It delivers requests to the system, to see if it works or not.
+
+
 #### logical data model
 ![data model](datamodel.png)
 
