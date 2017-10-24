@@ -649,5 +649,8 @@ Site directs the user to a list of stories matching the search criteria</td>
 #### logical data model
 ![data model](datamodel.png)
 
+#### Subsystem Sequence Diagram
+![sequence diagram](LSD-Subsystem-SequenceDiagram.png)
+
 
 ## Glossary
