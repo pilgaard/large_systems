@@ -3,6 +3,7 @@
 ## Team
 ### Alle i teamet vil bidrage med 20% hver.
 ### Andreas Heindorff Larsen: Q&A
+### Kasper Hornum Pontoppidan: Architect
 
 ## Introduction
 - Purpose of the System
