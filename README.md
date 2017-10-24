@@ -1,5 +1,9 @@
 # hacker_news
 
+## Team
+### Alle i teamet vil stå bidrage med 20% hver.
+### Andreas Heindorff Larsen: Q&A
+
 ## Introduction
 - Purpose of the System
 	- Formålet er at bygge en hjemmeside, hvor registrerede brugere kan lave indlæg, der både kan ses, kommenteres og vurderes af andre brugere. De enkelte kommentarer på indlæg kan også vurderes af andre brugere. Dette vil resulterer i et miljø, hvor brugere kan dele deres oplevelser eller interessante nyheder med andre brugere, hvilket kan lede til mange forskellige slags interaktioner imellem hjemmesidens brugere.
