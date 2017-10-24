@@ -1,7 +1,7 @@
 # hacker_news
 
 ## Team
-### Alle i teamet vil stå bidrage med 20% hver.
+### Alle i teamet vil bidrage med 20% hver.
 ### Andreas Heindorff Larsen: Q&A
 
 ## Introduction
