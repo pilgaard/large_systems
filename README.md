@@ -647,7 +647,7 @@ Site directs the user to a list of stories matching the search criteria</td>
 </table>
 
 #### logical data model
-![data model](datamoel.png)
+![data model](datamodel.png)
 
 
 ## Glossary
