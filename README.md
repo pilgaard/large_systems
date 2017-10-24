@@ -285,6 +285,36 @@ User clicks on “create account”</td>
   </tr>
 </table>
 
+<table>
+  <tr>
+    <td>Name:</td>
+    <td>Retrieve password</td>
+  </tr>
+  <tr>
+    <td>Actor: </td>
+    <td>User</td>
+  </tr>
+  <tr>
+    <td>Entry Conditions:</td>
+    <td>User is on loginpage and not logged in</td>
+  </tr>
+  <tr>
+    <td>Flow of Events:
+</td>
+    <td>User clicks on "Request new password". 
+	User enters Email. 
+	User recieves email with temporary password and can now log in</td>
+  </tr>
+   <tr>
+    <td>Alternate flow of events:</td>
+    <td>User clicks on "Request new password". 
+	User enters Email. Email is not registered and user is notified.</td>
+  </tr> 
+  <tr>
+    <td>Exit conditions:</td>
+    <td>A message is shown, notifying the user that the password has been reset</td>
+  </tr>
+</table>
 
 <table>
   <tr>
@@ -483,6 +513,36 @@ User clicks “reply”</td>
   </tr>
 </table>
 
+<table>
+  <tr>
+    <td>Name:</td>
+    <td>Show/Hide comment tree</td>
+  </tr>
+  <tr>
+    <td>Actor: </td>
+    <td>User</td>
+  </tr>
+  <tr>
+    <td>Entry Conditions:</td>
+    <td>User is on a comment page</td>
+  </tr>
+  <tr>
+    <td>Flow of Events:
+	</td>
+    <td>User clicks on "hide" on a comment.	
+	</td>
+  </tr>
+  <tr>
+    <td>Alternate flow of events:
+	</td>
+    <td>User clicks on "show" on a comment.	
+	</td>
+  </tr>
+  <tr>
+    <td>Exit conditions:</td>
+    <td>The commenttree is shown/hidden to the user</td>
+  </tr>
+</table>
 
 <table>
   <tr>
