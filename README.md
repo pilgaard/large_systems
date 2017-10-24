@@ -105,6 +105,8 @@ Systemet skal kunne håndtere at brugere kan registrere sig på siden og tilføj
 ### System models
 
 
+![Use Case Diagram](usecasediagram.png)
+
 <table>
   <tr>
     <td>Name:</td>
