@@ -706,7 +706,7 @@ LoginCredentials
 RegisterCredentials  
 `{"username": "<String>", "password": "<String>"}`
 
-Story 
+Story  
 `{"title": "<String>", "content": "<var>"}`  
 
 
