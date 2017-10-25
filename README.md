@@ -666,6 +666,34 @@ Simulator:
 - Simulator is a bot hosted by Helge.
 - It delivers requests to the system, to see if it works or not.
 
+### API
+
+Show latest stories
+_GET: /api/stories_
+
+Select story
+_GET: /api/stories/view/{id}_
+
+Show comments
+_GET: /api/stories/{id}/comments_
+
+Submit story
+_POST(Story): /api/stories
+
+Upvote story
+_POST: /api/stories/{id}/upvote_
+
+Downvote story
+_POST: /api/stories/{id}/downvote_
+
+Comment on story
+_POST(StoryComment): /api/stories/{id}/comment_
+
+Login
+_POST(LoginCredentials): /api/auth/login_
+
+Register
+_POST(RegisterCredentials): /api/auth/register_
 
 #### logical data model
 ![data model](datamodel.png)
