@@ -6,6 +6,7 @@
 ### Kasper Hornum Pontoppidan: Architect
 ### Christian Sindt: DevOps
 ### Kasper Olesen: Product Owner/Manager
+### Emil Pilgaard: Lead developer
 
 ## Introduction
 - Purpose of the System
