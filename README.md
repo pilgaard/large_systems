@@ -5,7 +5,7 @@
 ### Andreas Heindorff Larsen: Q&A
 ### Kasper Hornum Pontoppidan: Architect
 ### Christian Sindt: DevOps
-### Kasper Olesen: Product Owner/Manager
+### Kasper Olesen: Product Owner
 ### Emil Pilgaard: Lead developer
 
 ## Introduction
