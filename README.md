@@ -4,6 +4,8 @@
 ### Alle i teamet vil bidrage med 20% hver.
 ### Andreas Heindorff Larsen: Q&A
 ### Kasper Hornum Pontoppidan: Architect
+### Christian Sindt: DevOps
+### Kasper Olesen: Product Owner/Manager
 
 ## Introduction
 - Purpose of the System
