@@ -700,13 +700,13 @@ Register
 StoryComment  
 `{"storyid": "<int>", "comment": "<String>"}`
 
-LoginCredentials
+LoginCredentials  
 `{"username": "<String>", "password": "<String>"}`
 
-RegisterCredentials
+RegisterCredentials  
 `{"username": "<String>", "password": "<String>"}`
 
-Story
+Story 
 `{"title": "<String>", "content": "<var>"}`  
 
 
