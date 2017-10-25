@@ -669,31 +669,31 @@ Simulator:
 ### API
 
 Show latest stories
-_GET: /api/stories_
+`GET: /api/stories`
 
 Select story
-_GET: /api/stories/view/{id}_
+`GET: /api/stories/view/{id}`
 
 Show comments
-_GET: /api/stories/{id}/comments_
+`GET: /api/stories/{id}/comments`
 
 Submit story
-_POST(Story): /api/stories
+`POST(Story): /api/stories`
 
 Upvote story
-_POST: /api/stories/{id}/upvote_
+`POST: /api/stories/{id}/upvote`
 
 Downvote story
-_POST: /api/stories/{id}/downvote_
+`POST: /api/stories/{id}/downvote`
 
 Comment on story
-_POST(StoryComment): /api/stories/{id}/comment_
+`POST(StoryComment): /api/stories/{id}/comment`
 
 Login
-_POST(LoginCredentials): /api/auth/login_
+`POST(LoginCredentials): /api/auth/login`
 
 Register
-_POST(RegisterCredentials): /api/auth/register_
+`POST(RegisterCredentials): /api/auth/register`
 
 #### logical data model
 ![data model](datamodel.png)
