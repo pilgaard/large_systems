@@ -1,5 +1,13 @@
 # hacker_news
 
+## Team
+### Alle i teamet vil bidrage med 20% hver.
+### Andreas Heindorff Larsen: Q&A
+### Kasper Hornum Pontoppidan: Architect
+### Christian Sindt: DevOps
+### Kasper Olesen: Product Owner/Manager
+### Emil Pilgaard: Lead developer
+
 ## Introduction
 - Purpose of the System
 	- Formålet er at bygge en hjemmeside, hvor registrerede brugere kan lave indlæg, der både kan ses, kommenteres og vurderes af andre brugere. De enkelte kommentarer på indlæg kan også vurderes af andre brugere. Dette vil resulterer i et miljø, hvor brugere kan dele deres oplevelser eller interessante nyheder med andre brugere, hvilket kan lede til mange forskellige slags interaktioner imellem hjemmesidens brugere.
@@ -646,8 +654,24 @@ Site directs the user to a list of stories matching the search criteria</td>
   </tr>
 </table>
 
+#### Actor Description
+Guest:
+- A guest is a visitor, who is not logged in. 
+- The guest can view all comments and posts, but is not able to post or comment himself.
+User:
+- A user is a visitor, who is logged in.
+- A user is identifiable by the system.
+- A user is able to create posts, comment on comments or posts and up/down-vote comments or posts.
+Simulator:
+- Simulator is a bot hosted by Helge.
+- It delivers requests to the system, to see if it works or not.
+
+
 #### logical data model
 ![data model](datamodel.png)
+
+#### Subsystem Sequence Diagram
+![sequence diagram](LSD-Subsystem-SequenceDiagram.png)
 
 
 ## Glossary
