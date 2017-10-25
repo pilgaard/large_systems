@@ -668,31 +668,31 @@ Simulator:
 
 ### API
 
-Show latest stories
+Show latest stories  
 `GET: /api/stories`
 
-Select story
+Select story  
 `GET: /api/stories/view/{id}`
 
-Show comments
+Show comments  
 `GET: /api/stories/{id}/comments`
 
-Submit story
+Submit story  
 `POST(Story): /api/stories`
 
-Upvote story
+Upvote story  
 `POST: /api/stories/{id}/upvote`
 
-Downvote story
+Downvote story  
 `POST: /api/stories/{id}/downvote`
 
-Comment on story
+Comment on story  
 `POST(StoryComment): /api/stories/{id}/comment`
 
-Login
+Login  
 `POST(LoginCredentials): /api/auth/login`
 
-Register
+Register  
 `POST(RegisterCredentials): /api/auth/register`
 
 #### logical data model
