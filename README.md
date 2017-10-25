@@ -695,6 +695,21 @@ Login
 Register  
 `POST(RegisterCredentials): /api/auth/register`
 
+#### *Data Models*
+
+StoryComment  
+`{"storyid": "<int>", "comment": "<String>"}`
+
+LoginCredentials
+`{"username": "<String>", "password": "<String>"}`
+
+RegisterCredentials
+`{"username": "<String>", "password": "<String>"}`
+
+Story
+`{"title": "<String>", "content": "<var>"}`  
+
+
 #### logical data model
 ![data model](datamodel.png)
 
