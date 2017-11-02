@@ -7,8 +7,6 @@ The subsystems consist of: A frontend primarily made in Angular, and a backend m
 For the database we have used a MySQL Database.  
 The full documentation and requirements can be found [here](https://github.com/pilgaard/large_systems/blob/master/Documentation.md).
 
-<span style="color:orange">Users must be able to downvote comments when they have 500+ karma</span>
-
 ### System Completion Status
 
 Below is a collection of all our User Stories.   
