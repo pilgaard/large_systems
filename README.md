@@ -65,7 +65,7 @@ Please include any of the following in the description:
 ### Inner System information
 
 #### Access:
-<p>ssh : root@46.101.111.112</p>
+ssh : root@46.101.111.112
 mysql username/pwd : root/admin
 <br>
 Docker log files: /var/lib/docker/aufs/mnt/
