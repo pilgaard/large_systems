@@ -66,11 +66,14 @@ Please include any of the following in the description:
 
 #### Access:
 ssh : root@46.101.111.112
+<br>
 mysql username/pwd : root/admin
 <br>
-Docker log files: /var/lib/docker/aufs/mnt/
+#### Docker log files: 
+/var/lib/docker/aufs/mnt/
 <br>
-<p>Find the newest folder, ex.: 0b49c9da9532c5edfdd83bee978859c85fc3cb3c6b8f648a025e63676e683bed </p>
+Find the newest folder, ex.: 0b49c9da9532c5edfdd83bee978859c85fc3cb3c6b8f648a025e63676e683bed
+<br>
 Server log: opt/glassfish4/glassfish/domains/domain1/logs
 
 
