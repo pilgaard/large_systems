@@ -34,7 +34,7 @@ Vulnerabilities
 |          | Negligible | Marginal | Critical | Catastrophic |
 | -------- | ---------- | -------- | -------- | ------------ |
 | Certain  | High       | High     | Extreme  | Extreme      |
-| Likely   | Moderate   | High     | High     | Extreme      |
+| Likely   | Moderate   | High     | High     | Database     |
 | Possible | Low        | Moderate | High     | Extreme      |
-| Unlikely | Low        | Low      | Moderate | Extreme      |
+| Unlikely | Low        | Simulator endpoint      | Moderate | Extreme      |
 | Rare     | Low        | Low      | Moderate | High         |
