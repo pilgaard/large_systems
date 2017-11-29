@@ -38,3 +38,7 @@ Vulnerabilities
 | Possible | Low        | Moderate | High     | Extreme      |
 | Unlikely | Low        | Simulator endpoint      | Moderate | Server      |
 | Rare     | Low        | Low      | Moderate | High         |
+
+## Operating
+
+Just like with our own project, it is possible to use the publicly available Simulator endpoint, without logging in. A vulnerability like this can obviously be exploited, and is not realistic in a production environment.
