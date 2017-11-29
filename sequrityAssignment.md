@@ -1,4 +1,4 @@
-#Assignment
+# Assignment
 
 ## Asset definition
 
@@ -12,7 +12,7 @@ Serveren har kontakt til vores Database, som også er et asset defor skal vi bes
 Frontenden er den der gør at brugerne let kan læse og skrive til systemet
 
 
-##Threat modelling
+## Threat modelling
 Threats
 - hackere som kunne finde på at lægge vores server ned
 - hackere som kunne finde på at slette data fra vores database
