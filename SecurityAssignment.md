@@ -37,4 +37,4 @@ Vulnerabilities
 | Likely   | Moderate   | High     | High     | Database     |
 | Possible | Low        | Moderate | High     | Extreme      |
 | Unlikely | Low        | Simulator endpoint      | Moderate | Extreme      |
-| Rare     | Low        | Low      | Moderate | High         |
+| Rare     | Low        | Low      | Moderate | Server         |
