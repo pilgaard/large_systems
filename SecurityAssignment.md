@@ -28,3 +28,13 @@ Vulnerabilities
 - vores simulator Endpoint er tilgængeligt for alle, det burde være begrænset til at kun helges ip kunne få adgang
 -  serveren ligger hos digital-ocean, dette gør at vi ikke har fuld kontrol over vores system
 - vi har ingen begrænsninger sat op på hvor mange gange man kan prøve at logge ind i vores frontend hvilket gør at det vil være muligt at brute force sig ind i systemet
+
+## Risk Matrix
+
+|          | Negligible | Marginal | Critical | Catastrophic |
+| -------- | ---------- | -------- | -------- | ------------ |
+| Certain  | High       | High     | Extreme  | Extreme      |
+| Likely   | Moderate   | High     | High     | Extreme      |
+| Possible | Low        | Moderate | High     | Extreme      |
+| Unlikely | Low        | Low      | Moderate | Extreme      |
+| Rare     | Low        | Low      | Moderate | High         |
