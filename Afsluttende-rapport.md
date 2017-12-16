@@ -190,6 +190,12 @@ Tiden vil blive målt som den gennemsnitlige request tid, for det samlede antal 
 
 ### 2.3. Maintenance and reliability
 
+Under forløbet har vi kigget på gruppe f’s system, vi har prøvet både at benytte systemet som en almindelig bruger, ved at bruge frontenden, derudover har vi også prøvet at kalde direkte til apiet, dette har vi gjort ved at benytte postman.
+Ved almindelig brug har alt bare været som det skulle være. 
+Vi har også prøvet bevidst at sende forkerte data afsted igennem postman for at se om vi kunne lave noget der ville få systemet til at breake. 
+Vi har også prøvet at lave sql injections fra deres client. 
+Det har dog ikke lykkedes for os at finde noget på deres system, der har været værd at indberette, Og vi kan derfor kun sige at gruppens system har været yderst pålideligt.  
+
 ## 3. Discussion
 
 ## 3.1. Technical discussion
