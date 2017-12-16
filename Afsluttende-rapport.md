@@ -4,7 +4,18 @@
 
 ### 1.1. System requirements
 
-### 1.2. Development process
+### 1.2. Development process  
+
+Igennem hele projektet har vi anvendt en agil tilgangsvinkel, men ikke nogen specifik udviklingsmetode.  
+Det vil sige at vi har fokuseret mest på at få nye krav og features implementeret som de kom, ved brug af kommunikation imellem teamets medlemmer.  
+  
+Under udviklingen af den første version af projektet anvendte vi Trello, til at strukturere implementeringen af de forskellige features og requirements. Det blev dog ikke anvendt religiøst, hvilket i kombination med vores agile tilgang, blev lidt kaotisk til tider.
+  
+Trello er et website, hvor man kan oprette virtuelle scrum boards, som kan gøre det lettere for teams at organisere hvem, der laver hvad og hvilke features der mangler at blive implementeret. 
+Som alle nok er klar over, kræver det sådan et værktøj at alle fra teamet opdaterer boardet så snart der er nogle opdateringer. Hvis det ikke bliver opdateret, resulterer det i at det overblik som scrum boardet skulle give teamet, rent faktisk ikke repræsenterer virkeligheden.
+  
+Trello blev efterfølgende erstattet af ugentlige sprints, der indeholdte de forskellige nye krav, der skulle implementeres, og blev hovedsageligt kommunikeret via chatbeskeder. 
+
 
 ### 1.3. Software architecture
 
