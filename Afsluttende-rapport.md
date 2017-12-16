@@ -92,7 +92,7 @@ For at sikre at vi kan benytte localStorage hos brugeren, før vi skriver dertil
 Denne funktionalitet betyder at alle brugere der har indlæst hjemmesiden én gang, vil kunne benytte den, selvom vores backend-server skulle gå ned for en stund. 
 
 #### Backend
-I forhold til vores backend del aftalte vi i gruppen at vi ønskede at gøre brug af Java som programmeringssprog, valget faldt på Java på grund af vi alle sammen i forvejen havde et stort kendskab til sproget, samt vi at tidligere har erfaret at Java har god performance til denne type opgave. Derudover ville vi relativt hurtigt kunne have et REST API kørende, og det samme var gældende for vores database-forbindelse med JDBC. Som tidligere nævnt faldt vores valg af database på MySQL.
+I forhold til vores backend, aftalte vi i gruppen at vi ønskede at gøre brug af Java som programmeringssprog. Valget faldt på Java, på grund af vi alle sammen i forvejen havde et stort kendskab til sproget, samt vi at tidligere har erfaret at Java har god performance til denne type opgave. Derudover ville vi relativt hurtigt kunne have et REST API kørende, og det samme var gældende for vores database-forbindelse med JDBC. Som tidligere nævnt faldt vores valg af database på MySQL.
 
 **Pattern**
 ![bce](https://user-images.githubusercontent.com/11289686/34073853-e2e74e18-e2a3-11e7-9433-1b188d3f46ad.png)
@@ -103,11 +103,14 @@ Boundary Control Entity, er en variant af MVC modellen. Vi valgte at bruge dette
 **Boundary:**
 Boundary-laget er grænsen mellem brugergrænseflade og vores ”forretningslogik”. Denne har til formål at isolere API’et fra den resterende del af systemet. Vi valgte at bruge JAX-RS som er Javas API, til RESTful Web Services. 
 
+Udover klasserne til vores REST API, besluttede vi også at have en facade klasse, som skulle fungere som den eneste adgang fra Controller klasserne til vores database.   
+
 **Controller:**
 Controller-laget fungerer som et sted til opbevaring af ”hjælper” klasser. Vi valgte at have en stor del af vores logik i dette lag, da det skulle sikre at det blev nemmere at teste koden, sammenlignet med hvis vi havde det hele i Boundary klasserne.   
 
 **Entity:**
 Entity-laget ville vi bruge til at opbevare entitets klasser, som skulle bruges til persistering til vores database.
+ 
 
 #### Database
 Vi valgte at bruger en MySQL database til data persistering. Vores valg faldt på en relationel database, da vi mente at den ville havde en bedre performance til denne størrelse af systemer, end f.eks. Neo4J. Dette havde vi undersøgt tidligere i vores database fag på 1. semester og kunne med fordel bruge den erfaring vi havde fået derfra. 
