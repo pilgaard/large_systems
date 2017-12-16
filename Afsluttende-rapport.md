@@ -82,7 +82,7 @@ Vi blev ret hurtigt enige om at benytte AngularJS til vores frontend, da vi havd
 Når vi bruger AngularJS til at kode vores frontend, så laver vi samtidig en SinglePageApplication, hvilket vi ser, som en fordel for brugerne af hjemmesiden, da man kan navigere rundt på hjemmesidens forskellige undersider, uden at skulle indlæse hele siden hver gang.
 Vi ønskede at det var muligt for en bruger, at navigere på en cached version af hjemmesiden, hvis brugeren havde besøgt den før, og dermed gemt data om stories og comments i browserens LocalStorage. Derfor udføres der altid et tjek når der hentes eller sendes data med koden:
 
-- 'localStorageService.isSupported'
+- `localStorageService.isSupported`
 
 For at sikre at vi kan benytte localStorage hos brugeren, før vi skriver dertil eller læser derfra.  Herefter vil brugerens ændring blive gemt i localStorage ved hjælp af et key/value par, og samtidig sendes ændringen til vores backend igennem vores factory.
 
