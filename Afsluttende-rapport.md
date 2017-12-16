@@ -79,7 +79,9 @@ Logisk data model for vores MySQL database:
 
 #### Frontend
 Vi blev ret hurtigt enige om at benytte AngularJS til vores frontend, da vi havde mulighed for at udnytte flere funktionaliteter fra frameworket, som ville spare os for meget tid. Bl.a. databinding og specielt ng-repeat funktionen ville vi kunne udnytte, ved at style og programmere én story eller én comment og derefter påføre den kode og styling til alle elementerne ved at iterere over dem. Samtidig er AngularJS god til at håndtere profiler på en hjemmeside, specielt i forhold til elementer der bør skjules i forhold til om man er logget ind eller ud.
+
 Når vi bruger AngularJS til at kode vores frontend, så laver vi samtidig en SinglePageApplication, hvilket vi ser, som en fordel for brugerne af hjemmesiden, da man kan navigere rundt på hjemmesidens forskellige undersider, uden at skulle indlæse hele siden hver gang.
+
 Vi ønskede at det var muligt for en bruger, at navigere på en cached version af hjemmesiden, hvis brugeren havde besøgt den før, og dermed gemt data om stories og comments i browserens LocalStorage. Derfor udføres der altid et tjek når der hentes eller sendes data med koden:
 
 - `localStorageService.isSupported`
