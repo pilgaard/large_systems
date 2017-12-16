@@ -41,26 +41,26 @@ Alle controllerne benytter sig af vores factory, som er ansvarlig for alt kommun
 
 #### Backend
 
-Vores backend kommunikerer med vores frontend igennem et REST-api med funktionerne:
-- Show latest stories
+Vores backend er bygget efter BCE-modellen bestående af nogle entity-klasser til comment, story og user som benyttes af vores StoryController, som håndterer kommunikationen ned til databasen igennem persistence-laget med PreparedStatements, og op til facaden i boundary-laget, som indeholder vores REST-API der har denne struktur:
+- Show latest stories -
 GET: /api/stories
 
-- Select story
+- Select story -
 GET: /api/stories/view/{id}
 
-- Show comments
+- Show comments -
 GET: /api/stories/{id}/comments
-- Submit story
+- Submit story -
 POST(Story): /api/stories
-- Upvote story
+- Upvote story -
 POST: /api/stories/{id}/upvote
-- Downvote story
+- Downvote story -
 POST: /api/stories/{id}/downvote
-- Comment on story
+- Comment on story -
 POST(StoryComment): /api/stories/{id}/comment
-- Login
+- Login - 
 POST(LoginCredentials): /api/auth/login
-- Register
+- Register -
 POST(RegisterCredentials): /api/auth/register
 
 
