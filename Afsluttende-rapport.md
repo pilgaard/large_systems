@@ -230,4 +230,10 @@ Det er heller ikke lykkedes os at implementere logging/ELK stacken ordenligt, da
 Vi har desværre ikke været gode nok til at monitor den anden gruppes system. Det skyldes bl.a. at vi har været optaget af vores eget system, da vores eget ikke har kørt optimalt. Vi har ikke selv modtaget bug issues, udover fra Helge. Vi har forsøgt så vidt muligt at leve op til SLA, men på grund af sent opdagede fejl, har vi først senere hen komme op på et nogenlunde niveau. 
 
 
-## 3.2. Group work reflection & Lessons learned
+## 3.2. Group work reflection & Lessons learned  
+
+Gruppearbejdet imellem teamets medlemmer har fungeret godt. Alle har bidraget til projektet, og vi har hver især haft områder, hvor vi var stærke, og nogle hvor vi var knap så stærke. 
+Vi løb dog ind i mange problemer undervejs, især under vedligeholdelsen af systemet, hvor der var nogle problemer vi aldrig fik løst. Der kan være mange grunde til at vi aldrig nåede helt i mål med projektet, men det skyldtes mest at vi blev for sent færdige med den første version af systemet, og aldrig fik halet op igen. Dette kan muligvis være grundet en mangel på en dedikeret lederrolle i vores team, der kan stå for at ”piske” de andre medlemmer, og sætte hårde deadlines. 
+Vi føler også at vi aldrig havde nok tid til at sætte os ordentligt ind i de forskellige værktøjer, og nogle gange med at nogle af gruppens medlemmer var helt blinde på området, og derfor ikke kunne hjælpe til.
+Vi anvendte ikke nogle af de roller vi blev tildelt i starten af projektet, men vi havde i stedet et ansvarsområde i form af backend eller frontend, hvilket vi føler at dette fungerede fint for os.
+
