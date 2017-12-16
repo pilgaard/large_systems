@@ -37,6 +37,7 @@ Subsystem Sekvensdiagram:
 #### Frontend
 
 Da vores frontend er lavet i AngularJS fungerer siden som en single-page-application, hvor vi har delt de forskellige undersider op, så de har hver deres view bestående af en .html-fil og en .js-fil. Derudover er der lavet forskellige komponenter som controllerne i .js-filerne har adgang til. komponenterne tæller bl.a. authentication, factory, filter og service.
+
 Alle controllerne benytter sig af vores factory, som er ansvarlig for alt kommunikation med vores backend igennem funktionerne: getStories() og addPost(post). Vores frontend modtager stories når siden loader, herefter bliver data’en skrevet til browserens localstorage, hvis dette er muligt. I det tilfælde at forbindelsen til vores backend skulle blive brudt, vil brugeren nu være i stand til at bruge en cached version indtil forbindelsen genoprettes. Brugeren vil se en besked under menuen, som beskriver hvorledes det har været muligt at connecte med serveren og/eller det har været muligt at indlæse data fra localstorage, såfremt det er nødvendigt. 
 
 #### Backend
