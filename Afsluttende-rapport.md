@@ -1,4 +1,6 @@
-# LSD Exam report
+# LSD Exam report  
+
+I Large Systems Development har vi skulle lave et system, der kort sagt skulle være en klon af hjemmesiden HackerNews. Vi har igennem hele semesteret løbende skulle foretage opdateringer af systemet, i form af nye features og implementering af værktøjer, der gør det lettere at vedligeholde et stort system. Formålet ved dette har været at forsøge at forberede os på, hvordan man vedligeholder et system i den virkelige verden. Dette skyldes at vi indtil nu ikke har udforsket de komplikationer, der kommer efter et system er færdigt og skal bruges i et produktionsmiljø.
 
 ## 1. Requirements, architecture, design and process
 
