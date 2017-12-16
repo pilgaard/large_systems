@@ -41,7 +41,8 @@ Alle controllerne benytter sig af vores factory, som er ansvarlig for alt kommun
 
 #### Backend
 
-Vores backend er bygget efter BCE-modellen bestående af nogle entity-klasser til comment, story og user som benyttes af vores StoryController, som håndterer kommunikationen ned til databasen igennem persistence-laget med PreparedStatements, og op til facaden i boundary-laget, som indeholder vores REST-API der har denne struktur:
+Vores backend er bygget efter BCE-modellen og består af nogle entity-klasser til comment, story og user der benyttes af vores StoryController, som håndterer kommunikationen ned til databasen igennem persistence-laget med PreparedStatements, og op til facaden i boundary-laget, som indeholder vores REST-API der har denne struktur:
+
 - Show latest stories -
 GET: /api/stories
 
@@ -62,6 +63,8 @@ POST(StoryComment): /api/stories/{id}/comment
 POST(LoginCredentials): /api/auth/login
 - Register -
 POST(RegisterCredentials): /api/auth/register
+
+Derudover har vi både i boundary- og control-lagene klasser til at håndtere metrics i forbindelse med prometheus.
 
 
 #### Database
