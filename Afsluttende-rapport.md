@@ -37,7 +37,12 @@ Systemets functional requirements kan beskrives ved følgende user stories:
   
 #### Non-functional requirements  
   
-
+Systemet skal have et REST API som gør det muligt for et simulator program at publicere og kommentere.  
+REST API’et skal også kunne fortælle hvilken stadie systemet er i, fx om det er kørende eller ved at opdatere.  
+API’et skal også kunne fortælle hvem der sidst har skrevet et indlæg eller en kommentar.  
+Systemet skal have en oppetid på mere end 95%.  
+Systemet må ikke miste noget af det data som bliver modtaget fra simulator programmet.  
+Der skal være en buffering mekanisme som kan gemme indkommende indhold imens systemet er nede og publicere det når systemet kommer online igen.  
   
 
 ### 1.2. Development process  
