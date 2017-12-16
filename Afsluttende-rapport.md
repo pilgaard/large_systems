@@ -109,6 +109,11 @@ Controller-laget fungerer som et sted til opbevaring af ”hjælper” klasser. 
 **Entity:**
 Entity-laget ville vi bruge til at opbevare entitets klasser, som skulle bruges til persistering til vores database.
 
+#### Database
+Vi valgte at bruger en MySQL database til data persistering. Vores valg faldt på en relationel database, da vi mente at den ville havde en bedre performance til denne størrelse af systemer, end f.eks. Neo4J. Dette havde vi undersøgt tidligere i vores database fag på 1. semester og kunne med fordel bruge den erfaring vi havde fået derfra. 
+
+Vi brugte JDBC (Java Database Connectivity), til at tilgå databasen. Vi valgte at vi ville bruge Java’s Prepared Statements interface til at forespørge i data, samt til opdatering af vores data. Dette valgte vi fordi at Prepared Statement” har en bedre performance end f.eks. ordinære statements, dette skyldes at de kun bliver kompileret én gang, nemlig første gang. Derudover giver det også en bedre sikkerhed, da det sikre at muligheden for ”SQL-injection” elimineres.    
+
 
 ### 1.5. Software implementation
 
