@@ -193,5 +193,15 @@ Tiden vil blive målt som den gennemsnitlige request tid, for det samlede antal 
 ## 3. Discussion
 
 ## 3.1. Technical discussion
+Udfra de krav der blev stillet, havde vi designet et system og vi har forsøgt at udvikle system ud fra dette. På trods af udfordringer på vejen, har vi nogenlunde fulgt det originale design. Det har gennem en stor del af projektet været lidt kaotisk, da vi ikke har fået brugt Trello så meget som vi originalt aftalte, men gennem kommunikation har vi fået løst de fleste problemer. Det har overordnet været fint nok. 
+
+Vores kommunikation har været god og vi har alle været med til at udvikle. Vores valg af database, udviklingssprog og andre teknologier har virket efter hensigten, for det meste.
+
+Selve programmet har ikke skabt voldsomme problemer, men den initielle opsætning var et problem da vi ikke kunne tilgå serveren med Jenkins. Vi fik det dog løst med en lokal installation, selvom dette ikke er helt optimalt. 
+
+Det er heller ikke lykkedes os at implementere logging/ELK stacken ordenligt, da vi har haft problemer med installation og implementering i koden. 
+
+Vi har desværre ikke været gode nok til at monitor den anden gruppes system. Det skyldes bl.a. at vi har været optaget af vores eget system, da vores eget ikke har kørt optimalt. Vi har ikke selv modtaget bug issues, udover fra Helge. Vi har forsøgt så vidt muligt at leve op til SLA, men på grund af sent opdagede fejl, har vi først senere hen komme op på et nogenlunde niveau. 
+
 
 ## 3.2. Group work reflection & Lessons learned
