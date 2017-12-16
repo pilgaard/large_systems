@@ -135,8 +135,9 @@ I forbindelse med gruppe f er vi blevet enige om en SLA som inderholder følgend
 
 * En oppetid på 99%. 
 * Response time skal maks være på 10 sekunder. 
-<br> 
+
 Disse punkter har fået et lille afsnit hver nedenfor hvor der vil blive nærmere uddybet hvordan disse krav skal fortolkes.
+
 #### Oppetid ####
 Vi er blevet enige med gruppe f om at deres system skal have en oppetid på 99% eller højere. Oppetiden skal beregnes ved at sende request til serveren til API’ets status funktion, som er lavet til at tjekke om serveren er i live. Ud fra det samlet antal af kald og antallet af succes kald, måles serverens oppetid.
 
