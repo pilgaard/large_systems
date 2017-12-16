@@ -9,6 +9,8 @@ Systemet skal kunne håndtere at brugere kan registrere sig på siden og tilføj
 
 #### Functional requirements  
   
+Systemets functional requirements kan beskrives ved følgende user stories:
+  
 | **Id** | **User Story** | **Id** | **User Story** |
 | --- | --- | --- | --- |
 |   | **Before login** |   |   |
