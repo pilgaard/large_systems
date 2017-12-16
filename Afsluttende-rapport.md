@@ -113,9 +113,9 @@ Entity-laget ville vi bruge til at opbevare entitets klasser, som skulle bruges 
  
 
 #### Database
-Vi valgte at bruger en MySQL database til data persistering. Vores valg faldt på en relationel database, da vi mente at den ville havde en bedre performance til denne størrelse af systemer, end f.eks. Neo4J. Dette havde vi undersøgt tidligere i vores database fag på 1. semester og kunne med fordel bruge den erfaring vi havde fået derfra. 
+Vi valgte at bruger en MySQL database til data persistering. Vores valg faldt på en relationel database, da vi mente at den ville havde en bedre performance, (til den forventede mængde af data) end f.eks. Neo4J. Dette havde vi tidligere undersøgt, i vores database fag på 1. semester og kunne med fordel bruge den erfaring vi havde fået derfra. 
 
-Vi brugte JDBC (Java Database Connectivity), til at tilgå databasen. Vi valgte at vi ville bruge Java’s Prepared Statements interface til at forespørge i data, samt til opdatering af vores data. Dette valgte vi fordi at Prepared Statement” har en bedre performance end f.eks. ordinære statements, dette skyldes at de kun bliver kompileret én gang, nemlig første gang. Derudover giver det også en bedre sikkerhed, da det sikre at muligheden for ”SQL-injection” elimineres.    
+Vi besluttede at bruge JDBC (Java Database Connectivity), til at tilgå vores database. Vi valgte at vi ville bruge Java’s Prepared Statements interface til at forespørge i data, samt til opdatering af vores data. Dette valgte vi fordi at Prepared Statement” har en bedre performance end f.eks. ordinære statements, dette skyldes at de kun bliver kompileret én gang, nemlig første gang. Derudover giver det også en bedre sikkerhed, da det sikre at muligheden for ”SQL-injection” elimineres.    
 
 
 ### 1.5. Software implementation
@@ -128,23 +128,12 @@ Der står også vi kan få adgang ind på serveren hvis vi ønsker, og vi bare s
 Til sidst er der nævnt hvordan vi skal indrapportere bugs i deres system.
 
 Så overordnet set har vi været yderst tilfredse med den dokumentation der er blevet sendt til os, den har været godt gennemarbejdet, og det virker velovervejet det der er skrevet.
-  
+
 ### 2.2. Service-level agreement ###
-
-I forbindelse med gruppe f er vi blevet enige om en SLA som inderholder følgende punkter:
-
-* En oppetid på 99%. 
-* Response time skal maks være på 10 sekunder. 
-Disse punkter har fået et lille afsnit hver nedenfor hvor der vil blive nærmere uddybet hvordan disse krav skal fortolkes.
-#### Oppetid ####
-Vi er blevet enige med gruppe f om at deres system skal have en oppetid på 99% eller højere. Oppetiden skal beregnes ved at sende request til serveren til API’ets status funktion, som er lavet til at tjekke om serveren er i live. Ud fra det samlet antal af kald og antallet af succes kald, måles serverens oppetid.
-
-Dog vil gruppen ikke blive holdt ansvarlige for en faldende oppetid i tilfælde af begivenheder der er ude af deres kontrol, dette inkludere bl.a. at deres hosting firma bliver angrebet af hackere eller udsat for strømsvigt.
-
-#### Responstid #### 
-Vi har aftalt at systemet ikke må være mere end 10 sekunder om at svare, denne tid er fra serveren modtager et request til den sender et response retur, dette vil betyde at gruppen ikke vil blive holdt ansvarlig for en eventuel ekstraordinær dårlig internetforbindelse fra slutbrugerens side af.
-Tiden vil blive målt som den gennemsnitlige request tid, for det samlede antal request der sendes afsted til serveren. 
-
+  
+Vores SLA inderholder følgende:
+* En oppe tid på 99%. Måles på request mod serveren.
+* Response time skal maks være på 10 sekunder. Måles som gennemsnitlig request time for de request der laves på serveren. 
 
 ### 2.3. Maintenance and reliability
 
