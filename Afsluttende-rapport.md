@@ -1,4 +1,19 @@
-# Large system development report # 
+# LSD Exam report
+
+## 1. Requirements, architecture, design and process
+
+### 1.1. System requirements
+
+### 1.2. Development process
+
+### 1.3. Software architecture
+
+### 1.4. Software design
+
+### 1.5. Software implementation
+
+## 2. Maintenance and SLA status
+
 ### 2.1. Hand-over ###
 Den 6. november modtog vi et link til en pdf på den gruppe vi skulle agerere operator for. Pdf’en indeholder det mest nødvendige information omkring systemet. I starten står der hvilken ip adresse systemet befinder sig på, efterfølgende får vi lidt flere informationer omkring hvordan det hele er sat op i forhold til servere og virtuelle maskiner.
 Der står også vi kan få adgang ind på serveren hvis vi ønsker, og vi bare skal kontakte dem så skal de nok give os en forbindelse. der er også lavet et diagram der viser dataflowet i systemet. Der er også linket til et andet dokument der udførligt beskriver backenden, i forhold til hvilke kald der er mulige at udføre, hvilke routes man skal bruge, om det er GET, PUT eller POST, hvad der forventes at blive sendt med i requested og hvad man kan forvente at få tilbage, både ved et succesfuld request og et med fejl. Det eneste man kunne sætte en finger på, er at der ikke er skrevet at man skal kalde på port 8080, men det gættede vi os hurtigt frem til, da de havde skrevet at backenden var skrevet i Java.
@@ -12,3 +27,10 @@ Vores SLA inderholder følgende:
 * En oppe tid på 99%. Måles på request mod serveren.
 * Response time skal maks være på 10 sekunder. Måles som gennemsnitlig request time for de request der laves på serveren. 
 
+### 2.3. Maintenance and reliability
+
+## 3. Discussion
+
+## 3.1. Technical discussion
+
+## 3.2. Group work reflection & Lessons learned
