@@ -138,6 +138,7 @@ Denne funktionalitet betyder at alle brugere der har indlæst hjemmesiden én ga
 I forhold til vores backend, aftalte vi i gruppen at vi ønskede at gøre brug af Java som programmeringssprog. Valget faldt på Java, på grund af vi alle sammen i forvejen havde et stort kendskab til sproget, samt vi at tidligere har erfaret at Java har god performance til denne type opgave. Derudover ville vi relativt hurtigt kunne have et REST API kørende, og det samme var gældende for vores database-forbindelse med JDBC. Som tidligere nævnt faldt vores valg af database på MySQL.
 
 **Pattern**
+
 ![bce](https://user-images.githubusercontent.com/11289686/34073853-e2e74e18-e2a3-11e7-9433-1b188d3f46ad.png)
 > Kilde: http://training-course-material.com/training/UML_Communication_Diagram
 
