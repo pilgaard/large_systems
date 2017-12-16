@@ -237,3 +237,10 @@ Vi løb dog ind i mange problemer undervejs, især under vedligeholdelsen af sys
 Vi føler også at vi aldrig havde nok tid til at sætte os ordentligt ind i de forskellige værktøjer, og nogle gange med at nogle af gruppens medlemmer var helt blinde på området, og derfor ikke kunne hjælpe til.
 Vi anvendte ikke nogle af de roller vi blev tildelt i starten af projektet, men vi havde i stedet et ansvarsområde i form af backend eller frontend, hvilket vi føler at dette fungerede fint for os.
 
+### 4. Maintenance and reliability ###
+Til at runde det hele af med vil vi sige at det har været et super spændende projekt at arbejde med. 
+Det kom lidt bag på os hvor meget der sker efter man har skrevet sin kode produktionsklar, for at holde systemet kørende. 
+Inden vi gik i gang med projektet havde vi godt styr på hvordan man koder, og arbejder med versionsstyring, derudover havde vi også et vist kendskab til CI/CD fra sidste semester, men det kom nok lidt bag på os hvor meget der så ellers skal til for at holde et system kørende.
+Vi må dog også erkende at vi på nogle punkter godt kunne ønske os at have gjort det lidt bedre, bl.a. var vi ikke ligefrem den gruppe der fik processeret flest stories.
+En del af problemet har ligget i at vi har til tider følt os lidt presset på tid, da der ind imellem har faldet mange afleverings-deadlines på samme tid, og til dels skyldes noget af problemet vores mangel på time management.
+Men alt i alt føler vi at vi er blevet meget klogere på hvad det vil sige at arbejde som devops, og vi har lært en masse smarte værktøjer at kende. Den viden og erfaring er derfor helt klart noget vi vil kunne tage med os, og vi føler vi er meget bedre stillet til næste gang vi får at vide vi skal producere et stort system.
