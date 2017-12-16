@@ -91,6 +91,8 @@ For at sikre at vi kan benytte localStorage hos brugeren, før vi skriver dertil
 
 Denne funktionalitet betyder at alle brugere der har indlæst hjemmesiden én gang, vil kunne benytte den, selvom vores backend-server skulle gå ned for en stund. 
 
+#### Backend
+I forhold til vores backend del aftalte vi i gruppen at vi ønskede at gøre brug af Java som programmeringssprog, valget faldt på Java på grund af vi alle sammen i forvejen havde et stort kendskab til sproget, samt vi at tidligere har erfaret at Java har god performance til denne type opgave. Derudover ville vi relativt hurtigt kunne have et REST API kørende, og det samme var gældende for vores database-forbindelse med JDBC. Som tidligere nævnt faldt vores valg af database på MySQL.
 
 ### 1.5. Software implementation
 
