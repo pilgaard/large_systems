@@ -71,12 +71,6 @@ Derudover har vi også en MySQL database til at lagre vores data. Dermed ser vor
 
 ![data flow](Dataflow.png)
 
-
-Subsystem Sekvensdiagram:
-
-![sequence diagram](LSD-Subsystem-SequenceDiagram.png)
-
-
 #### Frontend
 
 Da vores frontend er lavet i AngularJS fungerer siden som en single-page-application, hvor vi har delt de forskellige undersider op, så de har hver deres view bestående af en .html-fil og en .js-fil. Derudover er der lavet forskellige komponenter som controllerne i .js-filerne har adgang til. komponenterne tæller bl.a. authentication, factory, filter og service.
